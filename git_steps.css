@@ -1,0 +1,39 @@
+
+User@AgolBuna MINGW64 ~
+$ cd webiteS
+
+User@AgolBuna MINGW64 ~/webiteS (main)
+$ cd websiteS
+
+User@AgolBuna MINGW64 ~/webiteS/websiteS (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/User/webiteS/websiteS/.git/
+
+User@AgolBuna MINGW64 ~/webiteS/websiteS (master)
+$ git add -A
+
+User@AgolBuna MINGW64 ~/webiteS/websiteS (master)
+$ git commit -m "sa akoa nalng ibutang"
+On branch master
+nothing to commit, working tree clean
+
+User@AgolBuna MINGW64 ~/webiteS/websiteS (master)
+$ git branch -M master
+
+User@AgolBuna MINGW64 ~/webiteS/websiteS (master)
+$ git remote add origin https://github.com/kiking123/practice1.git
+
+User@AgolBuna MINGW64 ~/webiteS/websiteS (master)
+$ git push -u origin master
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 7.06 MiB | 4.73 MiB/s, done.
+Total 23 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/kiking123/practice1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+User@AgolBuna MINGW64 ~/webiteS/websiteS (master)
